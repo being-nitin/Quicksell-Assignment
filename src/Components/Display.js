@@ -39,11 +39,9 @@ function Display(props) {
     //     }
     // };
 
-     if(showPriority===false){
-        if(reverse===true || descending===true){
-            alert("First Select Priority option from Grouping then apply filters ");
-        }
-     }
+    if (!showPriority && (reverse || descending) && !(reverse && descending) && !(showUser || showStatus)) {
+        alert("First select the Priority option from Grouping, then apply filters.");
+    }
 
 
     }
