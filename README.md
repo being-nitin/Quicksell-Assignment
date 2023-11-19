@@ -14,7 +14,8 @@ The priority feature is initialized at the default state.
 Users can apply priority filters to organize data based on priority levels, including No Priority, Urgent, High, Medium, and Low.
 Ordering Options for Priority:
 
-After Selecting Priority, then only users can further refine the Ordering of data.
+""""After Selecting Priority, then only users can further refine the Ordering of data.""""
+
 The application supports ordering priority data in descending order.
 Users have the flexibility to choose the sorting order based on either the priority level or the title.
 Usage Instructions:
